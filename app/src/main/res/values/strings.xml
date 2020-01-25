@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Top Quizz</string>
+    <string name="introduction_title">Welcome to Top Quizz!</string>
+    <string name="hint_name">What\'s your name?</string>
+    <string name="hint_number_of_question">How many questions do you want?</string>
+    <string name="hint_difficulty">Difficulty</string>
+    <string name="hint_category">Category</string>
+    <string name="button_play">Let\'s go!</string>
+    <string name="good_answer">Good answer</string>
+    <string name="wrong_answer">Wrong answer</string>
+    <string name="number_below_0">You need to take a number of question greater than 0</string>
+
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>General culture </item>
+        <item>Litterature</item>
+        <item>Movie</item>
+        <item>Music</item>
+        <item>Music and theater</item>
+        <item>Television</item>
+        <item>Video games</item>
+        <item>Board games</item>
+        <item>Nature</item>
+        <item>Computer science</item>
+        <item>Mathematic</item>
+        <item>Mythology</item>
+        <item>Sports</item>
+        <item>Geography</item>
+        <item>History</item>
+        <item>Politic</item>
+        <item>Art</item>
+        <item>Celebrities</item>
+        <item>Animals</item>
+        <item>Vehicles</item>
+        <item>Comics</item>
+        <item>Gadgets</item>
+        <item>Anime and Manga</item>
+        <item>Cartoon</item>
+    </string-array>
+</resources>

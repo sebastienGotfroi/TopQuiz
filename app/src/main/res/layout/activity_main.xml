@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".controller.MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_main_greeting_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/introduction_title"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:textSize="25dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorAccent">
+        </TextView>
+        <EditText
+            android:id="@+id/activity_main_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="@string/hint_name"
+            >
+
+        </EditText>
+        <EditText
+            android:id="@+id/activity_main_number_questions_input"
+            android:hint="@string/hint_number_of_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:inputType="number" />
+        <Spinner
+            android:id="@+id/activity_main_difficulty_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="@string/hint_difficulty"
+            android:entries="@array/difficulty_array"/>
+
+        <Spinner
+            android:id="@+id/activity_main_category_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:hint="@string/hint_category"
+            android:entries="@array/category_array"/>
+        <Button
+            android:id="@+id/activity_main_play_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_play"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent">
+
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>
